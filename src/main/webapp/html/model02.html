@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap实例- 模态框</title>
+    <script src="../js/jquery-3.2.1.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+<h3>动态实例</h3>
+
+
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal02">
+    Launch demo modal
+</button>
+
+<div class="modal fade" id="myModal02" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"
+                        aria-hidden="true">×
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                    弹窗TITLE
+                </h4>
+            </div>
+            <div class="modal-body">
+                <table class="table table-hover table-bordered" style="text-align: center;">
+                    <tr>
+                        <td>用户名</td>
+                        <td>性别</td>
+                        <td>爱好</td>
+                        <td>修改</td>
+                        <td>启用/禁用</td>
+                    </tr>
+                    <tr>
+                        <td>童平平</td>
+                        <td>男</td>
+                        <td>computer</td>
+                        <td><button class="btn btn-success btn-xs">修改</button></td>
+                        <td><button class="btn btn-danger btn-xs">禁用</button></td>
+                    </tr>
+                    <tr>
+                        <td>童平平</td>
+                        <td>男</td>
+                        <td>computer</td>
+                    </tr>
+                    <tr>
+                        <td>童平平</td>
+                        <td>男</td>
+                        <td>computer</td>
+                    </tr>
+                    <tr>
+                        <td>童平平</td>
+                        <td>男</td>
+                        <td>computer</td>
+                    </tr>
+                    <tr>
+                        <td>童平平</td>
+                        <td>男</td>
+                        <td>computer</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default"
+                        data-dismiss="modal">关闭
+                </button>
+                <button type="button" class="btn btn-primary">
+                    保存
+                </button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!--<script>-->
+<!--$(function () {-->
+<!--$(".btn").click(function () {-->
+<!--$('#myModal').modal({-->
+<!--keyboard: true-->
+<!--})-->
+<!--})-->
+<!--});-->
+<!--</script>-->
+</body>
+</html>
